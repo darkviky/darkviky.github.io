@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<scriptmsg>
+<story>
+<story msg="제롬... 언제까지 저를 기다리게 하실 건가요? " subno="1" no="1"/>
+<story msg="카일라...조금만 더 기다려 줘요... " subno="2" no="1"/>
+<story msg="카일라...나의 사랑을 받아주세요!! " subno="1" no="2"/>
+<story msg="" subno="2" no="2"/>
+<story msg="자네같은 무능력자에겐 내딸을 줄 수 없네! " subno="1" no="3"/>
+<story msg="......... " subno="2" no="3"/>
+<story msg="제롬...당신에게 실망했어요... " subno="1" no="4"/>
+<story msg="......... " subno="2" no="4"/>
+<story msg="그거 알아요? 제롬이 카일라를 위해서 퍼니아일랜드를 짓고 있다네요! " subno="1" no="5"/>
+<story msg="제롬은 정말 멋진 남자군요. " subno="2" no="5"/>
+<story msg="사실은 빙고클럽 사장 샤일로도 카일라를 위한 프로포즈를 준비한다는 군요. " subno="1" no="6"/>
+<story msg="허허... 이쁜 카일라는 남자복도 많네! " subno="2" no="6"/>
+<story msg="카일라! 당신을 위한 선물을 준비하고 있어요. 기대해요! " subno="1" no="7"/>
+<story msg="어머~~ 정말 기대되요! " subno="2" no="7"/>
+<story msg="카일라... 당신은 저를 쳐다보지도 않는 군요... " subno="1" no="8"/>
+<story msg="샤일로! 당신에게는 제가 있잖아요. " subno="2" no="8"/>
+<story msg="조금만 기다려요, 카일라. 당신을 위한 선물이 거의 완성 되어가요. " subno="1" no="9"/>
+<story msg="제롬! 정말 당신 최고예요! " subno="2" no="9"/>
+<story no="10" nm="dummy"/>
+</story>
+<dummy> </dummy>
+</scriptmsg>

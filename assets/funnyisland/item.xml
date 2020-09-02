@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<itemgoods>
+<items>
+<item no="1" nm="vegetable" hnm="수퍼 병충해 방지" useFlag="0" price="50000"/>
+<item no="2" nm="thief" hnm="자산보호금고" useFlag="0" price="50000"/>
+<item no="3" nm="jewel" hnm="보석감정사 고용" useFlag="2" price="100000"/>
+<item no="4" nm="price" hnm="아름다운 흥정" useFlag="0" price="50000"/>
+<item no="5" nm="freeball" hnm="빙고 프리볼" useFlag="0" price="100000"/>
+<item no="6" nm="car" hnm="자동차 보험" useFlag="1" price="7000000"/>
+<item no="7" nm="imitation" hnm="나노 가짜판별기" useFlag="0" price="1000000"/>
+<item no="8" nm="bingo" hnm="오락실 행운 코인" useFlag="2" price="1000"/>
+<item no="9" nm="land" hnm="공인중개사 고용" useFlag="1" price="10000000"/>
+<item no="10" nm="electronic" hnm="삼송브랜드 주식" useFlag="0" price="500000"/>
+<item no="11" nm="dummy"/>
+</items>
+<dummy> </dummy>
+</itemgoods>

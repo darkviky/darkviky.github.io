@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<article>
+<vegetable>
+<article nm="cabbage" hnm="배추" maxcnt="99" term="3" ratio="1" th="1"/>
+<article nm="radish" hnm="무" maxcnt="99" term="2" ratio="2" th="2"/>
+<article nm="orange" hnm="오렌지" maxcnt="99" term="5" ratio="3" th="3"/>
+<article nm="apple" hnm="사과" maxcnt="99" term="4" ratio="4" th="4"/>
+<article nm="pineapple" hnm="파인애플" maxcnt="99" term="6" ratio="7" th="5"/>
+<article nm="watermelon" hnm="수박" maxcnt="99" term="7" ratio="9" th="6"/>
+<article nm="dummy"/>
+</vegetable>
+<electronic>
+<article nm="tv" hnm="TV" maxcnt="99" term="2" ratio="25" th="1"/>
+<article nm="handphone" hnm="핸드폰" maxcnt="99" term="3" ratio="30" th="2"/>
+<article nm="audio" hnm="오디오" maxcnt="99" term="4" ratio="50" th="3"/>
+<article nm="washer" hnm="세탁기" maxcnt="99" term="4" ratio="70" th="4"/>
+<article nm="widetv" hnm="와이드 TV" maxcnt="99" term="5" ratio="150" th="5"/>
+<article nm="refrigerator" hnm="냉장고" maxcnt="99" term="7" ratio="200" th="6"/>
+<article nm="computer" hnm="컴퓨터" maxcnt="99" term="6" ratio="300" th="7"/>
+<article nm="dummy"/>
+</electronic>
+<jewel>
+<article nm="silver" hnm="은" maxcnt="99" term="2" ratio="8" th="1"/>
+<article nm="gold" hnm="금" maxcnt="99" term="4" ratio="10" th="2"/>
+<article nm="gem" hnm="진주" maxcnt="99" term="3" ratio="15" th="3"/>
+<article nm="emerald" hnm="에머럴드" maxcnt="99" term="5" ratio="20" th="4"/>
+<article nm="diamondblue" hnm="다이아몬드 블루" maxcnt="99" term="6" ratio="25" th="5"/>
+<article nm="diamondred" hnm="다이아몬드 레드" maxcnt="99" term="7" ratio="30" th="6"/>
+<article nm="dummy"/>
+</jewel>
+<luxury>
+<article nm="sunglass" hnm="선글라스" maxcnt="99" term="3" ratio="200" th="1"/>
+<article nm="shoes" hnm="구두" maxcnt="99" term="4" ratio="400" th="2"/>
+<article nm="cap" hnm="신사모" maxcnt="99" term="3" ratio="500" th="3"/>
+<article nm="clock" hnm="시계" maxcnt="99" term="5" ratio="600" th="4"/>
+<article nm="bag" hnm="가방" maxcnt="99" term="4" ratio="800" th="5"/>
+<article nm="handbag" hnm="핸드백" maxcnt="99" term="6" ratio="1000" th="6"/>
+<article nm="coat" hnm="코트" maxcnt="99" term="7" ratio="1500" th="7"/>
+<article nm="dummy"/>
+</luxury>
+<car>
+<article nm="truck" hnm="트럭" maxcnt="50" term="3" ratio="2000" th="1"/>
+<article nm="rv" hnm="RV카" maxcnt="50" term="4" ratio="3000" th="2"/>
+<article nm="sportscar" hnm="스포츠카" maxcnt="50" term="10" ratio="5000" th="3"/>
+<article nm="sedan" hnm="고급세단" maxcnt="50" term="7" ratio="8000" th="4"/>
+<article nm="bus" hnm="대형버스" maxcnt="50" term="6" ratio="15000" th="5"/>
+<article nm="dummy"/>
+</car>
+<land>
+<article nm="land200" hnm="임야" maxcnt="10" term="4" ratio="10000" th="1"/>
+<article nm="land100" hnm="공장부지" maxcnt="10" term="6" ratio="25000" th="2"/>
+<article nm="apart30" hnm="아파트" maxcnt="10" term="5" ratio="40000" th="3"/>
+<article nm="apart100" hnm="파워팰리스" maxcnt="10" term="6" ratio="70000" th="4"/>
+<article nm="house" hnm="주택" maxcnt="10" term="7" ratio="85000" th="5"/>
+<article nm="villa" hnm="고급주택" maxcnt="10" term="8" ratio="100000" th="6"/>
+<article nm="dummy"/>
+</land>
+<dummy> </dummy>
+</article>

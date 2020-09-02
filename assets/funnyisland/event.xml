@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<eventoccur>
+<events>
+<event no="1" nm="no3Bingo" result2="" result1="현재의 모든 상점의 가격이 변하였습니다." script="빙고클럽을 이용하지 않아서 가격이 폭락했습니다." headline="빙고클럽 사장 화냄" itemno="-1" kind="occur" hasItem="N"/>
+<event no="2" nm="thief" result2="자산 보호금고 아이템이 1회 작동되어 도둑을 잡았습니다." result1="총 자산 중 20%를 도둑 맞았습니다." script="집으로 도둑이 칩입 했습니다." headline="도둑 발생" itemno="2" kind="occur" hasItem="Y"/>
+<event no="3" nm="vegetableUp" result2="" result1="전체 과일, 채소값 가격이 20% 상승하였습니다." script="홍수피해로 과일, 채소값이 폭등했습니다." headline="채소 값 폭등" itemno="-1" kind="occur" hasItem="N"/>
+<event no="4" nm="jewelDown" result2="보석감정사 고용으로 보석가격의 급락을 막았습니다." result1="보석가격 30% 하락" script="전 세계적으로 보석 가격이 급락 했습니다." headline="보석 가격의 하락" itemno="3" kind="occur" hasItem="Y"/>
+<event no="5" nm="vegetableBugs" result2="수퍼 병충해 방지 아이템을 1회 사용하여 병충해를 방지했습니다." result1="보유한 과일, 채소가 각각 30%씩 피해를 입었습니다." script="과일과 채소에 병충해가 발생했습니다." headline="병충해 발생" itemno="1" kind="occur" hasItem="Y"/>
+<event no="6" nm="imitation" result2="나노 가짜판별기 아이템을 1회 사용으로 진짜 판정이 났습니다." result1="보유한 명품이 각각 20% 폐기처분 되었습니다." script="요즘 판매중인 명품이 가짜라는 판정이 났습니다." headline="가짜 명품 등장" itemno="7" kind="occur" hasItem="Y"/>
+<event no="7" nm="chinaElectronic" result2="삼송브랜드 주식을 1회 소모하여 가격 하락을 막았습니다." result1="전자제품 값이 크게 변동되었습니다." script="가격이 싼 마데 전자제품들이 마구 수입되고 있습니다." headline="마데 상품 대량유입" itemno="10" kind="occur" hasItem="Y"/>
+<event no="8" nm="carAccident" result2="자동차 보험 아이템 1회 사용으로 차값을 보상 받았습니다." result1="보유한 자동차가 각각 20%씩 폐차되었습니다." script="자동차 사고가 났습니다." headline="자동차 사고" itemno="6" kind="occur" hasItem="Y"/>
+<event no="9" nm="landDown" result2="공인중개사 고용으로 집값의 변동을 막았습니다." result1="전체 집값이 크게 변동되었습니다." script="집이 수요가 없어서 집값이 급락 했습니다." headline="지역 집값의 급락" itemno="9" kind="occur" hasItem="Y"/>
+<event no="10" nm="useItem" result2="" result1="" script="[팁] 아이템을 구매하면 여러가지 피해를 막을 수 있습니다." headline="아이템활성화" itemno="-1" kind="warning" hasItem="N"/>
+<event no="11" nm="everland" result2="" result1="" script="[경고] 보유한 자산으로 놀이동산을 건설하십시오. 놀이동산을 건설하지 않으면, 도둑이 침입하여 재산에 손실을 주게됩니다." headline="놀이동산 건설" itemno="-1" kind="warning" hasItem="N"/>
+<event no="12" nm="donotBingo" result2="" result1="" script="[경고] 빙고게임을 하지 않으면, 빙고클럽사장의 횡포로 물가가 폭락합니다." headline="빙고클럽주의" itemno="-1" kind="warning" hasItem="N"/>
+<event no="13" nm="dummy"/>
+</events>
+<dummy> </dummy>
+</eventoccur>
