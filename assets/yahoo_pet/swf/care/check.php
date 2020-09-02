@@ -1,0 +1,1 @@
+﻿&Hostname=http://www.jaeminara.co.kr/&uid=yahoopmp2&uname=밍뚜&skey=F7D761A0-F6BC-FFF2-ED7E2BC79A844C00&
