@@ -1,0 +1,100 @@
+<node>
+<levelInfo levelNum="1"/>
+<player x="212" y="207"/>
+<map width="10240" height="960"/>
+<resourceList>
+<resource file="ob1_01.png" linkage="ob1_01_bd"/>
+<resource file="ob1_02.png" linkage="ob1_02_bd"/>
+<resource file="ob1_03.png" linkage="ob1_03_bd"/>
+<resource file="ob1_04.png" linkage="ob1_04_bd"/>
+<resource file="st1_01.png" linkage="bg1_0_bd"/>
+<resource file="st1_02.png" linkage="bg1_1_bd"/>
+<resource file="st1_03.png" linkage="bg1_2_bd"/>
+</resourceList>
+<scene>
+<eventList>
+</eventList>
+<layerList>
+<layer type="strip" speed=".5" bd="bg1_0_bd" bdw="623" bdh="320" y="0"/>
+<layer type="strip" speed=".7" bd="bg1_1_bd" bdw="623" bdh="320" y="209"/>
+<layer type="object" speed=".9">
+<obj type="graphic" linkage="ob1_01_bd"  time="100" x="300" y="231" moveAI="moveAI1"/>
+<obj type="graphic" linkage="ob1_01_bd"  time="200" x="300" y="231" moveAI="moveAI1"/>
+<obj type="graphic" linkage="ob1_01_bd"  time="300" x="300" y="231" moveAI="moveAI1"/>
+<obj type="graphic" linkage="ob1_01_bd"  time="400" x="300" y="231" moveAI="moveAI1"/>
+<obj type="graphic" linkage="ob1_01_bd"  time="500" x="300" y="231" moveAI="moveAI1"/>
+<obj type="graphic" linkage="ob1_02_bd"  time="600" x="300" y="207" moveAI="moveAI1"/>
+<obj type="graphic" linkage="ob1_02_bd"  time="700" x="300" y="207" moveAI="moveAI1"/>
+<obj type="graphic" linkage="ob1_02_bd"  time="800" x="300" y="207" moveAI="moveAI1"/>
+<obj type="graphic" linkage="ob1_02_bd"  time="900" x="300" y="207" moveAI="moveAI1"/>
+<obj type="graphic" linkage="ob1_02_bd"  time="1100" x="300" y="207" moveAI="moveAI1"/>
+<obj type="graphic" linkage="ob1_03_bd"  time="1200" x="300" y="185" moveAI="moveAI1"/>
+<obj type="graphic" linkage="ob1_03_bd"  time="1300" x="300" y="185" moveAI="moveAI1"/>
+<obj type="graphic" linkage="ob1_03_bd"  time="1400" x="300" y="185" moveAI="moveAI1"/>
+<obj type="graphic" linkage="ob1_03_bd"  time="1500" x="300" y="185" moveAI="moveAI1"/>
+<obj type="graphic" linkage="ob1_03_bd"  time="1600" x="300" y="185" moveAI="moveAI1"/>
+<obj type="graphic" linkage="ob1_04_bd"  time="1700" x="300" y="211" moveAI="moveAI1"/>
+<obj type="graphic" linkage="ob1_04_bd"  time="1800" x="300" y="211" moveAI="moveAI1"/>
+<obj type="graphic" linkage="ob1_04_bd"  time="1900" x="300" y="211" moveAI="moveAI1"/>
+<obj type="graphic" linkage="ob1_04_bd"  time="2000" x="300" y="211" moveAI="moveAI1"/>
+<obj type="graphic" linkage="ob1_04_bd"  time="2100" x="300" y="211" moveAI="moveAI1"/>
+</layer>
+<layer type="strip" speed="1" bd="bg1_2_bd" bdw="623" bdh="320" y="244"/>
+<layer type="mc" speed="1">
+
+<obj type="wave" name="w1_00" time="90"/>
+<obj type="wave" name="w1_03" time="150"/>
+<obj type="wave" name="w1_01" time="150"/>
+<obj type="wave" name="w1_00" time="150"/>
+<obj type="wave" name="w1_03" time="150"/>
+<obj type="wave" name="w1_08" time="0"/>
+
+<obj type="wave" name="w1_11_1" time="150"/>
+<obj type="wave" name="w1_01" time="150"/>
+<obj type="wave" name="w1_02" time="150"/>
+<obj type="wave" name="w1_04" time="150"/>
+
+<obj type="wave" name="w1_08" time="0"/>
+<obj type="wave" name="w1_11_1" time="150"/>
+<obj type="wave" name="w1_01" time="150"/>
+<obj type="wave" name="w1_02" time="150"/>
+
+<obj type="wave" name="w1_04" time="150" />
+<obj type="wave" name="w1_05_1" time="150" />
+<obj type="wave" name="w1_00" time="150" />
+<obj type="wave" name="w1_03" time="150" />
+<obj type="wave" name="w1_10" time="150" />
+
+<obj type="wave" name="w1_11_1" time="150" />
+<obj type="wave" name="w1_02" time="150" />
+<obj type="wave" name="w1_08" time="150" />
+<obj type="wave" name="w1_05_1" time="150" />
+<obj type="wave" name="w1_08" time="10" />
+
+<obj type="wave" name="w1_06" time="150" />
+<obj type="wave" name="w1_13" time="10" />
+<obj type="wave" name="w1_11_1" time="150" />
+<obj type="wave" name="w1_01" time="150" />
+
+<obj type="wave" name="w1_05_1" time="150" />
+<obj type="wave" name="w1_01" time="150" />
+<obj type="wave" name="w1_08" time="0" />
+
+<obj type="wave" name="w1_06" time="150" />
+<obj type="wave" name="w1_11_1" time="150" />
+<obj type="wave" name="w1_12" time="150" />
+
+<obj type="wave" name="w1_09" time="150" />
+<obj type="wave" name="w1_04" time="150" />
+<obj type="wave" name="w1_14" time="150" />
+<obj type="wave" name="w1_09" time="150" />
+<obj type="wave" name="w1_11_1" time="150" />
+
+<obj type="event" name="event2" time="200" event="onBossWarning" boss="sb1a"/>
+<obj type="wave" name="w1_sb1a" time="130"/>
+<obj type="event" name="event2" time="wait" event="levelClear"/>
+
+</layer>
+</layerList>
+</scene>
+</node>

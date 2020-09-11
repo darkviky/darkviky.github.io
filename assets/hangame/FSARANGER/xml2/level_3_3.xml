@@ -1,0 +1,165 @@
+<node>
+<levelInfo levelNum="9"/>
+<player x="212" y="207"/>
+<map width="10240" height="960"/>
+<resourceList>
+<resource file="ob3_01.png" linkage="ob3_01_bd"/>
+<resource file="ob3_02.png" linkage="ob3_02_bd"/>
+<resource file="ob3_03.png" linkage="ob3_03_bd"/>
+<resource file="ob3_04.png" linkage="ob3_04_bd"/>
+<resource file="ob3_05.png" linkage="ob3_05_bd"/>
+<resource file="st3b_01.png" linkage="bg3_0_bd"/>
+<resource file="st3_02.png" linkage="bg3_1_bd"/>
+<resource file="st3_03.png" linkage="bg3_2_bd"/>
+</resourceList>
+<scene>
+<eventList>
+</eventList>
+<layerList>
+<layer type="strip" speed=".5" bd="bg3_0_bd" bdw="623" bdh="95" y="0"/>
+<layer type="strip" speed=".7" bd="bg3_1_bd" bdw="623" bdh="187" y="95"/>
+<layer type="object" speed=".9">
+<obj type="graphic" linkage="ob3_01_bd"  time="100" x="300" y="166" moveAI="moveAI1"/>
+<obj type="graphic" linkage="ob3_01_bd"  time="200" x="300" y="166" moveAI="moveAI1"/>
+<obj type="graphic" linkage="ob3_01_bd"  time="300" x="300" y="166" moveAI="moveAI1"/>
+<obj type="graphic" linkage="ob3_01_bd"  time="400" x="300" y="166" moveAI="moveAI1"/>
+<obj type="graphic" linkage="ob3_01_bd"  time="500" x="300" y="166" moveAI="moveAI1"/>
+<obj type="graphic" linkage="ob3_02_bd"  time="600" x="300" y="162" moveAI="moveAI1"/>
+<obj type="graphic" linkage="ob3_02_bd"  time="700" x="300" y="162" moveAI="moveAI1"/>
+<obj type="graphic" linkage="ob3_02_bd"  time="800" x="300" y="162" moveAI="moveAI1"/>
+<obj type="graphic" linkage="ob3_02_bd"  time="900" x="300" y="162" moveAI="moveAI1"/>
+<obj type="graphic" linkage="ob3_02_bd"  time="1100" x="300" y="162" moveAI="moveAI1"/>
+<obj type="graphic" linkage="ob3_03_bd"  time="1200" x="300" y="148" moveAI="moveAI1"/>
+<obj type="graphic" linkage="ob3_03_bd"  time="1300" x="300" y="148" moveAI="moveAI1"/>
+<obj type="graphic" linkage="ob3_03_bd"  time="1400" x="300" y="148" moveAI="moveAI1"/>
+<obj type="graphic" linkage="ob3_03_bd"  time="1500" x="300" y="148" moveAI="moveAI1"/>
+<obj type="graphic" linkage="ob3_03_bd"  time="1600" x="300" y="148" moveAI="moveAI1"/>
+<obj type="graphic" linkage="ob3_04_bd"  time="1700" x="300" y="144" moveAI="moveAI1"/>
+<obj type="graphic" linkage="ob3_04_bd"  time="1800" x="300" y="144" moveAI="moveAI1"/>
+<obj type="graphic" linkage="ob3_04_bd"  time="1900" x="300" y="144" moveAI="moveAI1"/>
+<obj type="graphic" linkage="ob3_04_bd"  time="2000" x="300" y="144" moveAI="moveAI1"/>
+<obj type="graphic" linkage="ob3_04_bd"  time="2100" x="300" y="144" moveAI="moveAI1"/>
+<obj type="graphic" linkage="ob3_05_bd"  time="2200" x="300" y="195" moveAI="moveAI1"/>
+<obj type="graphic" linkage="ob3_05_bd"  time="2300" x="300" y="195" moveAI="moveAI1"/>
+<obj type="graphic" linkage="ob3_05_bd"  time="2400" x="300" y="195" moveAI="moveAI1"/>
+<obj type="graphic" linkage="ob3_05_bd"  time="2500" x="300" y="195" moveAI="moveAI1"/>
+<obj type="graphic" linkage="ob3_05_bd"  time="2600" x="300" y="195" moveAI="moveAI1"/>
+</layer>
+<layer type="strip" speed="1" bd="bg3_2_bd" bdw="623" bdh="38" y="282"/>
+<layer type="mc" speed="1">
+
+<obj type="wave" name="w3_10" time="90" />
+<obj type="wave" name="w3_02" time="90" />
+<obj type="wave" name="w3_12_2" time="150" />
+<obj type="wave" name="w3_15" time="150" />
+<obj type="wave" name="w3_06" time="90" />
+<obj type="wave" name="w3_16" time="90" />
+
+<obj type="wave" name="w3_05" time="90" />
+<obj type="wave" name="w3_16" time="90" />
+<obj type="wave" name="w3_06" time="90" />
+<obj type="wave" name="w1_04" time="120" />
+<obj type="wave" name="w1_01" time="70" />
+<obj type="wave" name="w3_01" time="90" />
+<obj type="wave" name="w3_08_2" time="150" />
+<obj type="wave" name="w3_03" time="150" />
+
+<obj type="wave" name="w3_04" time="90" />
+<obj type="wave" name="w3_07_2" time="150" />
+<obj type="wave" name="w3_06" time="150" />
+<obj type="wave" name="w3_05" time="90" />
+<obj type="wave" name="w2_04" time="110" />
+<obj type="wave" name="w2_07_2" time="120" />
+<obj type="wave" name="w3_16" time="90" />
+
+<obj type="wave" name="w3_11_2" time="150" />
+<obj type="wave" name="w3_06" time="150" />
+<obj type="wave" name="w3_01" time="90" />
+<obj type="wave" name="w3_15" time="90" />
+<obj type="wave" name="w3_16" time="90" />
+
+<obj type="wave" name="w3_sb3b1" time="130"   subBoss="SUBBOSS GOES HERE" />
+
+<obj type="wave" name="w3_12_2" time="300" />
+<obj type="wave" name="w3_13" time="90" />
+<obj type="wave" name="w3_14" time="90" />
+<obj type="wave" name="w3_08_2" time="150" />
+
+<obj type="wave" name="w3_06" time="150" />
+<obj type="wave" name="w3_02" time="90" />
+<obj type="wave" name="w1_04" time="120" />
+<obj type="wave" name="w1_01" time="70" />
+<obj type="wave" name="w3_03" time="90" />
+<obj type="wave" name="w3_04" time="90" />
+<obj type="wave" name="w3_07_2" time="150" />
+
+<obj type="wave" name="w3_09" time="150" />
+<obj type="wave" name="w3_13" time="90" />
+<obj type="wave" name="w2_04" time="110" />
+<obj type="wave" name="w2_07_2" time="120" />
+<obj type="wave" name="w3_14" time="90" />
+<obj type="wave" name="w3_06" time="90" />
+
+<obj type="wave" name="w3_16" time="90" />
+<obj type="wave" name="w3_09" time="90" />
+<obj type="wave" name="w3_11_2" time="150" />
+<obj type="wave" name="w3_06" time="150" />
+<obj type="wave" name="w3_05" time="90" />
+
+<obj type="wave" name="w3_04" time="90" />
+<obj type="wave" name="w3_08_2" time="150" />
+<obj type="wave" name="w3_02" time="150" />
+<obj type="wave" name="w3_04" time="90" />
+<obj type="wave" name="w3_07_2" time="150" />
+
+<obj type="wave" name="w1_15" time="200"  offType="randomYHigh"/>
+<obj type="wave" name="w1_15" time="40"  offType="randomYLow"/>
+<obj type="wave" name="w1_15" time="30"  offType="randomYMid"/>
+<obj type="wave" name="w2_00" time="10"/>
+<obj type="wave" name="w1_15" time="40"  offType="randomYHigh"/>
+<obj type="wave" name="w1_15" time="40"  offType="randomYMid"/>
+<obj type="wave" name="w3_02" time="10" />
+<obj type="wave" name="w1_15" time="30"  offType="randomYLow"/>
+<obj type="wave" name="w3_02" time="10" />
+<obj type="wave" name="w1_15" time="40"  offType="randomYHigh"/>
+<obj type="wave" name="w1_15" time="40"  offType="randomYMid"/>
+<obj type="wave" name="w1_15" time="30"  offType="randomYLow"/>
+<obj type="wave" name="w2_00" time="0"/>
+<obj type="wave" name="w1_15" time="40"  offType="randomYHigh"/>
+<obj type="wave" name="w1_15" time="40"  offType="randomYMid"/>
+<obj type="wave" name="w1_15" time="40" offType="randomYLow"/>
+<obj type="wave" name="w1_15" time="40"  offType="randomYHigh"/>
+<obj type="wave" name="w3_02" time="10" />
+<obj type="wave" name="w1_15" time="40"  offType="randomYLow"/>
+<obj type="wave" name="w1_15" time="30"  offType="randomY"/>
+<obj type="wave" name="w1_15" time="40" offType="randomYLow"/>
+<obj type="wave" name="w2_00" time="0" />
+<obj type="wave" name="w1_15" time="40"  offType="randomYHigh"/>
+<obj type="wave" name="w1_15" time="40"  offType="randomYLow"/>
+<obj type="wave" name="w3_02" time="10" />
+<obj type="wave" name="w1_15" time="30"  offType="randomY"/>
+
+<obj type="wave" name="w3_15" time="90" />
+<obj type="wave" name="w3_05" time="90" />
+<obj type="wave" name="w3_11_2" time="150" />
+<obj type="wave" name="w3_16" time="90" />
+<obj type="wave" name="w1_04" time="120" />
+<obj type="wave" name="w1_01" time="70" />
+<obj type="wave" name="w3_09" time="150" />
+<obj type="wave" name="w3_12_2" time="150" />
+
+<obj type="wave" name="w3_04" time="90" />
+<obj type="wave" name="w3_03" time="90" />
+<obj type="wave" name="w3_16" time="90" />
+
+<obj type="wave" name="w3_06" time="150" />
+<obj type="wave" name="w3_10" time="90" />
+<obj type="wave" name="w3_11_2" time="150" />
+
+<obj type="event" name="event2" time="200" event="onBossWarning" boss="b3"/>
+<obj type="wave" name="w3_b3" time="130" />
+
+</layer>
+</layerList>
+</scene>
+</node>
