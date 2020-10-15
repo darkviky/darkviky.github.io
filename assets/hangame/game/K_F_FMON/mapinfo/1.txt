@@ -1,0 +1,18 @@
+<bg enmySum="14" arrowSum="30" type="bg" id="bg_1" />
+<player y="300" x="100" type="player" id="cha_monkey" />
+<obj type="obj">
+	<element typeIndex="0" type="enmy" indexs="44" id="npc_01" />
+	<element typeIndex="0" type="enmy" indexs="45" id="npc_01" />
+	<element typeIndex="0" type="enmy" indexs="59" id="npc_01" />
+	<element typeIndex="0" type="enmy" indexs="60" id="npc_01" />
+	<element typeIndex="0" type="enmy" indexs="61" id="npc_01" />
+	<element typeIndex="0" type="enmy" indexs="74" id="npc_01" />
+	<element typeIndex="0" type="enmy" indexs="75" id="npc_01" />
+	<element typeIndex="0" type="enmy" indexs="76" id="npc_01" />
+	<element typeIndex="0" type="enmy" indexs="77" id="npc_01" />
+	<element typeIndex="0" type="enmy" indexs="89" id="npc_01" />
+	<element typeIndex="0" type="enmy" indexs="90" id="npc_01" />
+	<element typeIndex="0" type="enmy" indexs="91" id="npc_01" />
+	<element typeIndex="0" type="enmy" indexs="92" id="npc_01" />
+	<element typeIndex="0" type="enmy" indexs="93" id="npc_01" />
+</obj>
