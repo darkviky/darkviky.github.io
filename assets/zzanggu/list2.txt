@@ -1,0 +1,11 @@
+&nameList0=나비야,악어떼,곰세마리,깊은산속 옹달샘,엄마돼지 아기돼지&
+&nameList1=아기염소,동물농장,방귀대장 뿡뿡이,그대로 멈취라,산중호걸,바윗돌 깨뜨려,예쁜아기곰,꿀벌의여행&
+&nameList2=아기별,섬집아기,나무잎 배,반달&
+&nameList3=여우야 여우야,쎄쎄쎄 아침바람,우리집에 왜 왔니&
+&nameList4=말썽쟁이짱구,아기공룡 둘리,햄토리,피구왕 통키,날아라 슈퍼보드,저팔계송,달의 요정 세일러문,피카츄&
+&linkList0=butterfly,crocodile,bear3,mountainSpring,pig&
+&linkList1=goat,animalfarm,gas,stop,hero,breakStone,prettybear,bee&
+&linkList2=babystar,island,leafship,moon&
+&linkList3=fox,morning,whymyhome&
+&linkList4=zzangu,doolri,hamtory,tongkey,monkeyboard,jupalge,selrumoon,picachu&
+&loadok=ok&
