@@ -1,0 +1,45 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+<title>한게임 - 즐거운 쉼표, GO 한게임!</title>
+<link href="/hangame/common/error/css/renewal_2006/etc.css" rel="stylesheet" type="text/css">
+<link href="/hangame/common/error/css/renewal_2006/common.css" rel="stylesheet" type="text/css">
+<script src="/hangame/common/error/js/common.js"></script>
+<script src="/hangame/common/error/js/header.js"></script>
+<script type="text/javascript">
+//common.js와 인코딩이 다른 경우 한글이 깨지는 문제 해결
+document.title = "한게임 - 즐거운 쉼표, GO 한게임!";
+</script>
+</head>
+
+<body>
+
+<div id="global02">
+	<script type="text/Javascript">setTopMenu("t_hangame");</script>
+</div>
+
+<div id="container">
+	<div class="limit_top limit_txt_nonesearch">
+		<p>이용에 불편을 드려 죄송합니다.</p>
+		<h1>요청 하신 페이지를 찾을 수 없습니다</h1>
+	</div>
+	<div class="limit_p_txt">
+		<p class="limit_txt_01">
+		찾으시는 페이지의 url이 변경되었거나 더 이상 제공되지 않는 경우입니다.<br>
+
+		<br>
+		새로고침 버튼을 누르시거나, 입력하신 페이지의 주소가 정확한지 다시 한번 확인해주시기 바랍니다.<br>
+		지속적인 문제 발생 시에는 <em>고객센터</em>로 연락주시면 신속히 해결해 드리도록 하겠습니다.
+		</p>
+	</div>
+	<div class="limit_btn">
+		<a href="javascript:document.location.reload();"><img src="http://images.hangame.co.kr/hangame/error/limit/btn_reset_org.gif" width="75" height="29" alt="새로고침"></a>
+		<a href="http://www.hangame.com"><img src="http://images.hangame.co.kr/hangame/error/limit/btn_home_gray.gif" width="77" height="29" alt="한게임홈"></a>
+		<a href="http://cs.hangame.com/hangame_renew/default.jsp"><img src="http://images.hangame.co.kr/hangame/error/limit/btn_center_gray.gif" width="75" height="29" alt="고객센터"></a>
+	</div>
+	<script type="text/javascript">	nhnent.setCommonFooter('simple');</script>
+</div>
+</body>
+</html>
+
